@@ -1,4 +1,4 @@
-package udemy.spring5.springdiexample.services;
+package udemy.spring5.pets;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;

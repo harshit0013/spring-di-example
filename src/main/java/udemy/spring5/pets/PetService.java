@@ -1,4 +1,4 @@
-package udemy.spring5.springdiexample.services;
+package udemy.spring5.pets;
 
 public interface PetService {
     String getPetType();

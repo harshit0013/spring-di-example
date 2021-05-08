@@ -3,8 +3,10 @@ package udemy.spring5.springdiexample;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import udemy.spring5.springdiexample.controllers.*;
 
+@ComponentScan(basePackages = {"udemy.spring5.springdiexample", "udemy.spring5.pets"})
 @SpringBootApplication
 public class SpringDiExampleApplication {
 
